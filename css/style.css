@@ -12,6 +12,15 @@ body {
   height: 100vh;
 }
 
+.container {
+  width: 100%;
+}
+
+.element1, .element2, .element3 {
+  display: block;
+  width: 100%;
+}
+
 .mdl-layout__header {
   background-color: #00bcd4;
   color: #fff;
