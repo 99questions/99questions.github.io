@@ -46,7 +46,7 @@ var deepQuestions = [
   "What are some ways we can prioritize self-care and mental health in our relationship?",
   "Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.",
   "Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you’ve just met.",
-  "Complete this sentence: “I wish I had someone with whom I could share ..."",
+  "Complete this sentence: “I wish I had someone with whom I could share ...",
   
 ];
 
