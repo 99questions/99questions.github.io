@@ -3,73 +3,19 @@
   <head>
     <meta name="viewport" content="=width=device-width, initial-scale=1.0">
     <title>99 Questions for Dordie and Kolaraki</title>
-    <link href="src/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="css/javascript.js" type = "text/javascript"></script> 
   </head>
   <body>
     <div class="container">
-        <h1>99 Questions for Dordie and Kolaraki</h1>
-        <p id="question"></p>
-        <div>
-          <button onclick="getQuestion()">Get Fun Question</button>
-          <button onclick="getQuestion()">Get Deep Question</button>
-        </div>
-
-    <script>
-      function getQuestion() {
-        const questions = [
-        "What are your personal goals, and how can I support you in achieving them?",
-        "What is one of your fondest childhood memories, and how has it influenced who you are today?",
-        "How can I help you manage stress and anxiety in our relationship?",
-        "In what ways can we continue to grow and strengthen our relationship?",
-        "Can you tell me more about what brings you joy and fulfillment in life?",
-        "What is something you've always wanted to do but haven't yet, and how can I help you achieve it?",
-        "What is your favorite book or movie, and what does it say about your values and interests?",
-        "What accomplishment are you most proud of, and why?",
-        "How can I be more mindful of your needs and preferences, even in small ways?",
-        "What personal qualities do you value most in yourself and others?",
-        "What is one travel destination that you've always dreamed of visiting, and why?",
-        "What are some new skills or experiences you'd like to gain, and how can I support you in that process?",
-        "What are your hopes and dreams for our future as a couple?",
-        "Can you describe a time when you felt heard and understood during a conflict in our relationship?",
-        "How do you define happiness, and what can we do to cultivate more of it in our lives together?",
-        "How do you explore and nurture your spirituality, and how can I support you in that process?",
-        "What are your thoughts and feelings about politics, and how can we engage in healthy conversations about it?",
-        "What is your favorite type of cuisine, and can we try cooking a new recipe together sometime?",
-        "What was one of the happiest moments of your childhood, and how can we recreate that feeling in our relationship?",
-        "What are some of the core values and beliefs that guide your life, and how can I honor and respect them?",
-        "Can you tell me about a time when you felt particularly strong or resilient, and what helped you get through it?",
-        "What is your favorite type of music, and can we listen to it together and share why we enjoy it?",
-        "What do you love about each season, and how can we make the most of those unique experiences together?",
-        "What is your favorite thing about yourself, and how can I help you feel more confident and proud of it?",
-        "Can you share a quote or saying that is particularly meaningful to you, and what it represents?",
-        "What are your thoughts on social media and its impact on our relationship, and how can we navigate it together in a healthy way?",
-        "What are some of your biggest aspirations for our life together, and how can we work towards them as a team?",
-        "What are some short-term goals you have for our relationship, and how can I support you in achieving them?",
-        "How can we work together to cultivate a healthy and positive attitude towards money and finances?",
-        "How can we continue to prioritize learning and personal growth in our lives, both as individuals and as a couple?",
-        "What is your favorite way to spend a lazy day, and can we plan a day like that together soon?",
-        "What are some of your favorite childhood games, and can we play them together as a way to bond and reminisce?",
-        "Can you share a favorite TV show or movie that has deep meaning to you, and why it resonates?",
-        "What is your favorite way to unwind and relax, and how can I help create a space for that in our relationship?",
-        "What is your favorite hobby, and how can we make time for it in our busy lives?",
-        "Can you share a personal challenge or struggle you've faced, and how can we work together to support you through it?",
-        "What is your favorite type of exercise, and can we try a new workout routine together?",
-        "What are some of your favorite memories from our relationship so far, and how can we continue to make more?",
-        "How do you envision our future together, and what steps can we take to make that vision a reality?",
-        "What is your love language, and how can I show you love and affection in the way that resonates most with you?",
-        "What are some ways we can show gratitude and appreciation for each other on a daily basis?",
-        "What is your favorite type of art or creative expression, and can we explore it together as a way to bond and connect?",
-        "What are your thoughts on spirituality and religion, and how can we respect each other's beliefs and values?",
-        "Can you share a dream or aspiration that you've been hesitant to pursue, and how can I encourage and support you in going after it?",
-        "What are some ways we can prioritize self-care and mental health in our relationship?",
-        "What is your favorite type of outdoor activity, and can we plan an adventure or excursion?"
-        ];
-
-        const randomIndex = Math.floor(Math.random() * questions.length);
-        const randomQuestion = questions[randomIndex];
-        document.getElementById("question").textContent = randomQuestion;
-      }
-    </script>
+      <h1>99 Questions for Dordie and Kolaraki</h1>
+      <p id="question"></p>
+      <div>
+        <button onclick="getFunQuestion()">Get Fun Question</button>
+        <button onclick="getDeepQuestion()">Get Deep Question</button>
+       </div>
+      <script>
+      </script>
     </div>
   </body>
 </html>
