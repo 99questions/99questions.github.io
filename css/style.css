@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 body {
   /*background: #bbc6fa;*/
-  background: url("https://source.unsplash.com/xg9tYmiE0-w") center/cover fixed no-repeat;
+  background: url("https://source.unsplash.com/xg9tYmiE0-w") center/cover fixed
+    no-repeat;
 }
 
 /* Customize styles for this page */
@@ -25,13 +26,13 @@ body {
   box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-.container h1{
+.container h1 {
   font-size: 36px;
   margin-bottom: 40px;
   position: relative;
 }
 
-.container h1:after{
+.container h1:after {
   content: "";
   width: 75px;
   height: 3px;
@@ -43,23 +44,24 @@ body {
   transform: translateX(-50%);
 }
 
-.container p{
+.container p {
   font-size: 23px;
   min-height: 110px;
 }
 
-.container p::before, .container p::after{
-  content: '"'; 
+.container p::before,
+.container p::after {
+  content: '"';
 }
 
-.container div{
+.container div {
   width: 100%;
   margin-top: 0px;
   display: flex;
   justify-content: center;
 }
 
-.container button{
+.container button {
   background: transparent;
   color: #333;
   border-radius: 25px;
