@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="=width=device-width, initial-scale=1.0">
     <title>Random Question Generator</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="src/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="container">
-      <div class="element1">
-        <h1 align="justify">Random Question Generator</h1>
-      </div>
-      <div class="element2">
+        <h1>Random Question Generator</h1>
         <p id="question"></p>
-      </div>
-      <div class="element3">
         <button onclick="getQuestion()">Get Question</button>
-      </div>
 
     <script>
       function getQuestion() {
@@ -72,5 +67,6 @@
         document.getElementById("question").textContent = randomQuestion;
       }
     </script>
+    </div>
   </body>
 </html>
