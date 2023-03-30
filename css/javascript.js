@@ -231,13 +231,13 @@ const question = document.getElementById("question");
 const clickerDeep = document.getElementById("deep");
   clickerDeep.addEventListener("click", () => {
     question.classList.remove("fade-in");
-    question.offsetWidth // required to trigger a reflow and restart the animation
+    question.offsetWidth; // required to trigger a reflow and restart the animation
     question.classList.add("fade-in");
   });
 
 const clickerFun = document.getElementById("fun");
   clickerFun.addEventListener("click", () => {
     question.classList.remove("fade-in");
-    question.offsetWidth // required to trigger a reflow and restart the animation
+    question.offsetWidth; // required to trigger a reflow and restart the animation
     question.classList.add("fade-in");
   });
