@@ -213,15 +213,14 @@ var funQuestions = [
   "What is something you're curious about and want to learn more about?"
 ];
 
-
 function getFunQuestion() {
-  const randomQuestion = randomItem(funQuestions);
-  document.getElementById("question").textContent = randomQuestion;
+  const randomFunQuestion = randomItem(funQuestions);
+  document.getElementById("question").textContent = randomFunQuestion;
 }
 
 function getDeepQuestion() {
-  const randomQuestion = randomItem(deepQuestions);
-  document.getElementById("question").textContent = randomQuestion;
+  const randomDeepQuestion = randomItem(deepQuestions);
+  document.getElementById("question").textContent = randomDeepQuestion;
 }
 
 const question = document.getElementById("question");
