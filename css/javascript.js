@@ -15,7 +15,6 @@ var deepQuestions = [
   "Can you describe a time when you felt heard and understood during a conflict in our relationship?",
   "How do you define happiness, and what can we do to cultivate more of it in our lives together?",
   "How do you explore and nurture your spirituality, and how can I support you in that process?",
-  "What are your thoughts and feelings about politics, and how can we engage in healthy conversations about it?",
   "What is your favorite type of cuisine, and can we try cooking a new recipe together sometime?",
   "What was one of the happiest moments of your childhood, and how can we recreate that feeling in our relationship?",
   "What are some of the core values and beliefs that guide your life, and how can I honor and respect them?",
