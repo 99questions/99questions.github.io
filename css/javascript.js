@@ -213,13 +213,16 @@ var funQuestions = [
   "What is something you're curious about and want to learn more about?"
 ];
 
+const randomFunItem = (arr) => arr.splice((Math.random() * arr.length) | 0, 1);
+const randomDeepItem = (arr) => arr.splice((Math.random() * arr.length) | 0, 1);
+
 function getFunQuestion() {
-  const randomFunQuestion = randomItem(funQuestions);
+  const randomFunQuestion = randomFunItem(funQuestions);
   document.getElementById("question").textContent = randomFunQuestion;
 }
 
 function getDeepQuestion() {
-  const randomDeepQuestion = randomItem(deepQuestions);
+  const randomDeepQuestion = randomDeepItem(deepQuestions);
   document.getElementById("question").textContent = randomDeepQuestion;
 }
 
@@ -238,5 +241,3 @@ const clickerFun = document.getElementById("fun");
     question.offsetWidth // required to trigger a reflow and restart the animation
     question.classList.add("fade-in");
   });
-
-const randomItem = (arr) => arr.splice((Math.random() * arr.length) | 0, 1);
