@@ -56,7 +56,7 @@ var funQuestions = [
   "What countries would you like to spend a month in?",
   "What traits do you find the most important in a partner?",
   "What are the things that you don't want in a relationship?",
-  "Do you belive in soulmates?".
+  "Do you belive in soulmates?",
   "How do you like to be shown affection?",
   "What was your first impression of your partner? What made them stand out?",
   "What are some of the highlights of our relationship so far?",
@@ -223,5 +223,21 @@ function getDeepQuestion() {
   const randomQuestion = randomItem(deepQuestions);
   document.getElementById("question").textContent = randomQuestion;
 }
+
+const question = document.getElementById("question");
+
+const clickerDeep = document.getElementById("deep");
+  clickerDeep.addEventListener("click", () => {
+    question.classList.remove("fade-in");
+    question.offsetWidth // required to trigger a reflow and restart the animation
+    question.classList.add("fade-in");
+  });
+
+const clickerFun = document.getElementById("fun");
+  clickerFun.addEventListener("click", () => {
+    question.classList.remove("fade-in");
+    question.offsetWidth // required to trigger a reflow and restart the animation
+    question.classList.add("fade-in");
+  });
 
 const randomItem = (arr) => arr.splice((Math.random() * arr.length) | 0, 1);
